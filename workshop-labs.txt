@@ -1,0 +1,79 @@
+# Labs brainstorming
+<clean up setup steps slides> // keep info for cloning repos
+Intro labs
+* Documentation <public doc> e.g. Wiz security coding standards
+* Files and Folders <local pdf or text/document>
+* interacting with chat/history
+* model selection
+* inconsistent generation lab
+* rules
+
+agent -> plan -> feedback -> agent
+* plan w/ spec generation for emojihub (no guardrails)
+    Modify or simplify the generated solution - invite folks to use their language
+you will save a LOT of timing by invest in the plan, architecture, and approach UP FRONT
+* iterate and adapt the plan
+    personalization
+
+<you shipped something>
+creative requirements <choose your own adventure>
+
+<git init and commit message>
+
+Advanced:
+ <coming in with emojihub example, generation -> plan -> build -> pivot/theme>
+* UI Refactor exercise
+
+<insert lab repo no docs current state>
+Simple python disney movies API (2-3 endpoints)
+    GET names RETURN names and all data
+    Create movie
+    Retreieve movie
+    Update movie
+    Delete movie
+    sample json file
+    no docs
+* Advanced Planning (assimilate current state to AI ready)
+    <something someone else built>, use AI to uplift current repo by adding docs
+    scaffold repo for AI Development (project rules, spec docs, workspaces)
+        fuzzy search, multi field search, list
+
+
+* Agents (extending and new development with AI)
+    start new feature with sequential agents
+    leverage the spec from previous exercise
+    qa agent builds tests
+
+    verification <light turns green we complete>
+    tests suite run by
+    human validation
+    <add new movie
+
+
+MCP:
+* off the shelf <observe for everyone>, follow along
+    choose two, install one, have one in repo
+    Show it, before and after
+    Goal is to show context coming to LLM through LLM native approaches
+
+* adding mcp for some of the API endpoint for movie data
+    inspector
+    get movie
+    list movies
+    search movies
+    how we get the agent to use mcp
+    
+
+
+
+
+Advanced lab repo
+* Gitlab and Github mirrors (org in both)
+https://github.disney.com/ai-workshops/ai-developer-day
+https://gitlab.disney.com/ai-workshops/ai-developer-day
+
+/docs (mcp, standards, examples)
+/labs/intro - project
+/labs/advanced - project
+/labs/mcp - project
+/labs/mcp/.cursor/mcp.json
