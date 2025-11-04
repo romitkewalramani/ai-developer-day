@@ -1,0 +1,50 @@
+{
+    "name": "Workshop Dev Container (Express.js + FastAPI)",
+    "dockerComposeFile": "../labs/advanced/Docker/docker-compose.yml",
+    "service": "ai-workshop-advanced-dev-container",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "ms-python.python",
+          "bradlc.vscode-tailwindcss",
+          "esbenp.prettier-vscode",
+          "ms-python.vscode-pylance",
+          "ms-python.black-formatter"
+        ],
+        "settings": {
+          "editor.formatOnSave": true,
+          "python.defaultInterpreterPath": "/usr/bin/python3",
+          "python.formatting.provider": "black",
+          "[python]": {
+            "editor.defaultFormatter": "ms-python.black-formatter"
+          },
+          "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          }
+        }
+      }
+    },
+    
+    "postCreateCommand": "echo 'Container ready! Clone your repos into /workspace or subdirectories'",
+    
+    "forwardPorts": [3000, 8000],
+    "portsAttributes": {
+      "3000": {
+        "label": "Express.js App",
+        "onAutoForward": "notify"
+      },
+      "8000": {
+        "label": "FastAPI App",
+        "onAutoForward": "notify"
+      }
+    },
+    
+    "remoteUser": "root"
+  }

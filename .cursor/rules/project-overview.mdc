@@ -1,0 +1,19 @@
+---
+alwaysApply: true
+---
+
+# Project Overview
+
+This repo is going to be used as a repo for an AI Upskills Workshop at The Walt Disney Company.
+
+The main tool we will use for the workshop is Cursor 2.0.
+
+The workshop-slides.md file is a Markup Presentation Ecosystem (MARP) presentation.
+
+All contents added to these slides should follow the establioshed formatting.
+
+Do not allow contents to overflow in a slide.
+
+All contents in the presentation should apply to Cursor 2.0 features.
+
+There are hands-on labs that will be facilitated in the workshop to allow users first-hand experience with Cursor features.

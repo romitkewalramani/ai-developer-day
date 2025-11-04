@@ -1,0 +1,279 @@
+[
+  {
+    "id": 1,
+    "title": "Onward",
+    "director": "Dan Scanlon",
+    "releaseYear": 2020,
+    "actors": [
+      "Tom Holland",
+      "Chris Pratt",
+      "Julia Louis-Dreyfus",
+      "Octavia Spencer"
+    ],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      "fantasy",
+      "magic",
+      "brotherhood",
+      "quest"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Soul",
+    "director": "Pete Docter",
+    "releaseYear": 2020,
+    "actors": [
+      "Jamie Foxx",
+      "Tina Fey",
+      "Graham Norton",
+      "Rachel House"
+    ],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      "music",
+      "jazz",
+      "purpose",
+      "afterlife"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Raya and the Last Dragon",
+    "director": "Don Hall",
+    "releaseYear": 2021,
+    "actors": [
+      "Kelly Marie Tran",
+      "Awkwafina",
+      "Gemma Chan",
+      "Izaac Wang"
+    ],
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "tags": [
+      "dragon",
+      "warrior",
+      "trust",
+      "unity"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Luca",
+    "director": "Enrico Casarosa",
+    "releaseYear": 2021,
+    "actors": [
+      "Jacob Tremblay",
+      "Jack Dylan Grazer",
+      "Emma Berman",
+      "Saverio Raimondo"
+    ],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      "friendship",
+      "summer",
+      "sea-monster",
+      "italy"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Encanto",
+    "director": "Jared Bush",
+    "releaseYear": 2021,
+    "actors": [
+      "Stephanie Beatriz",
+      "María Cecilia Botero",
+      "John Leguizamo",
+      "Mauro Castillo"
+    ],
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "tags": [
+      "magic",
+      "family",
+      "colombia",
+      "musical"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Turning Red",
+    "director": "Domee Shi",
+    "releaseYear": 2022,
+    "actors": [
+      "Rosalie Chiang",
+      "Sandra Oh",
+      "Ava Morse",
+      "Maitreyi Ramakrishnan"
+    ],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      "coming-of-age",
+      "panda",
+      "puberty",
+      "mother-daughter"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Lightyear",
+    "director": "Angus MacLane",
+    "releaseYear": 2022,
+    "actors": [
+      "Chris Evans",
+      "Keke Palmer",
+      "Peter Sohn",
+      "Taika Waititi"
+    ],
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "tags": [
+      "space",
+      "buzz-lightyear",
+      "sci-fi",
+      "adventure"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Strange World",
+    "director": "Don Hall",
+    "releaseYear": 2022,
+    "actors": [
+      "Jake Gyllenhaal",
+      "Jaboukie Young-White",
+      "Gabrielle Union",
+      "Dennis Quaid"
+    ],
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "tags": [
+      "exploration",
+      "family",
+      "adventure",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Elemental",
+    "director": "Peter Sohn",
+    "releaseYear": 2023,
+    "actors": [
+      "Leah Lewis",
+      "Mamoudou Athie",
+      "Ronnie Del Carmen",
+      "Shila Ommi"
+    ],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      "elements",
+      "fire",
+      "water",
+      "romance",
+      "immigration"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "The Little Mermaid",
+    "director": "Rob Marshall",
+    "releaseYear": 2023,
+    "actors": [
+      "Halle Bailey",
+      "Jonah Hauer-King",
+      "Melissa McCarthy",
+      "Daveed Diggs"
+    ],
+    "genres": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "tags": [
+      "mermaid",
+      "musical",
+      "underwater",
+      "princess"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Wish",
+    "director": "Chris Buck",
+    "releaseYear": 2024,
+    "actors": [
+      "Ariana DeBose",
+      "Chris Pine",
+      "Alan Tudyk",
+      "Angelique Cabral"
+    ],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      "wish",
+      "magic",
+      "disney-100",
+      "musical"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Inside Out 2",
+    "director": "Kelsey Mann",
+    "releaseYear": 2024,
+    "actors": [
+      "Amy Poehler",
+      "Maya Hawke",
+      "Kensington Tallman",
+      "Liza Lapira"
+    ],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tags": [
+      "emotions",
+      "puberty",
+      "anxiety",
+      "sequel"
+    ]
+  }
+]
