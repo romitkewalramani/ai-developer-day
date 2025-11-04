@@ -1,0 +1,33 @@
+services:
+  ai-workshop-advanced-dev-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-workshop-advanced-dev-container
+    volumes:
+      # Mount only the workspace directory (excludes Python and TypeScript folders)
+      # Participants will clone repos into this directory
+      - ../workspace:/workspace
+      # Persist npm cache for faster installs
+      - npm-cache:/root/.npm
+      # Persist pip cache for faster installs
+      - pip-cache:/root/.cache/pip
+    environment:
+      - NODE_ENV=development
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    ports:
+      # Expose ports for development servers
+      - "3000:3000"   # Express.js apps
+      - "8000:8000"   # FastAPI apps
+    networks:
+      - workshop-network
+
+volumes:
+  npm-cache:
+  pip-cache:
+
+networks:
+  workshop-network:
+    driver: bridge
